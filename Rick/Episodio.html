@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episodios de Rick and Morty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1></h1>
+    </header>
+    
+    <main>
+        <!-- Contenido principal de la página -->
+        <section id="detalles">
+            <h2>Episodios</h2>
+            <div id="characterDetails" class="character-details">
+                <h3 id="characterName">Nombre del Personaje</h3>
+                <p id="characterEpisodes">Episodios en los que aparece:</p>
+
+            </div>
+        </section>
+    </main>
+
+    
+
+    
+<footer>
+        <!-- Pie de página -->
+        <p></p>
+    </footer>
+
+    <script>
+         var Numepisodios;
+        // Obtener parámetros de la URL
+        const params = new URLSearchParams(window.location.search);
+        const nombre = params.get('nombre');
+        let episodios = params.get('episodio');
+
+        // Separar los episodios por comas
+        episodios = episodios.split(',');
+
+        // Mostrar los datos en la página
+        const characterNameElement = document.getElementById('characterName');
+        const characterEpisodesElement = document.getElementById('characterEpisodes');
+         //mostrar nombre
+        characterNameElement.textContent = `Nombre: ${nombre}`;
+         // Mostrar episodios uno debajo del otro
+         characterEpisodesElement.textContent = "Episodios en los que aparece:";
+        episodios.forEach((episodio) => {
+            const episodioElement = document.createElement('p');
+            episodioElement.textContent = episodio;
+            characterEpisodesElement.appendChild(episodioElement);
+        });
+    </script>
+
+</body>
+</html>

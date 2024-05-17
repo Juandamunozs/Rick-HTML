@@ -1,0 +1,84 @@
+nav{
+    background-color: rgb(238, 232, 247);
+    color: rgb(18, 136, 236);
+}
+
+.character-card {
+    border: 5px solid rgb(120, 17, 236);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #83b1ee;
+    height: 200px;
+    width: 200px;
+    display: inline-table;
+  }
+  .character-card:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    border: 2px solid #eee8e8;
+  }
+  .character-cardanimals {
+    border: 5px solid rgb(120, 17, 236);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #83b1ee;
+    height: 200px;
+    width: 200px;
+    display: inline-table;
+  }
+  .character-cardanimals:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    border: 2px solid #ffffff;
+  }
+  .character-cardyo {
+    border: 5px solid rgb(120, 17, 236);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #83b1ee;
+    height: 200px;
+    width: 400px;
+    display: inline-table;
+    
+  }
+  .character-cardyo:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    border: 2px solid #f3eded;
+  }
+  body{
+    background-color: #614ed1b2;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .animal-image {
+    width: 350px; /* Puedes ajustar este valor según tus necesidades */
+    height: 250px; /* Puedes ajustar este valor según tus necesidades */
+  }
+
+  .animal-name {
+    text-align: center;
+  }
+
+
+  .boton{
+     border-radius: 20%;
+     background-color: #83b1ee;
+     color: rgb(232, 250, 215);
+     border: 40px;
+     height: auto;
+     width: 45px;
+  }
+
+  
+  .boton:hover {
+    filter: brightness(1.2);
+    transform: scale(1.01);
+    border: 1px solid #6e29c9;
+  }

@@ -1,0 +1,13 @@
+[
+  {
+    "nombre": "Juan Muñoz",
+    "edad": 19,
+    "identificacion": "1060986334",
+    "correo": "juanmunoz@ejemplo.com",
+    "telefono": "+57 3158145977",
+    "calle": "Carrera 123",
+    "ciudad": "Cali",
+    "nacionalidad": "Colombia",
+    "estadocivil": "Complicado"
+  }
+]

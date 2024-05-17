@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Tigre de Bengala",
+    "imagen": "https://www.ngenespanol.com/wp-content/uploads/2022/09/tigre-de-bengala-el-gran-felino-de-las-selvas-de-la-india-768x430.jpg",
+    "especie": "Panthera tigris",
+    "extinto": "No",
+    "peso": 220,
+    "altura": 90
+  },
+  {
+    "nombre": "Delfín Mular",
+    "imagen": "https://www.areadelfines.com/Imagenes/delfin-mular.jpg",
+    "especie": "Tursiops truncatus",
+    "extinto": "No",
+    "peso": 150,
+    "altura": 300
+  },
+  {
+    "nombre": "Panda Gigante",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Giant_Panda_in_Beijing_Zoo_1.JPG",
+    "especie": "Ailuropoda melanoleuca",
+    "extinto": "No",
+    "peso": 120,
+    "altura": 120
+  },
+  {
+    "nombre": "León Africano",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg",
+    "especie": "Panthera leo",
+    "extinto": "No",
+    "peso": 190,
+    "altura": 110
+  },
+  {
+    "nombre": "Tortuga laúd",
+    "imagen": "https://seaturtle-world.com/wp-content/uploads/laud.jpg",
+    "especie": "Dermochelys coriacea",
+    "extinto": "No",
+    "peso": 500,
+    "altura": 140
+  },
+  {
+    "nombre": "Rinoceronte de Sumatra",
+    "imagen": "https://t2.ea.ltmcdn.com/es/razas/8/0/8/rinoceronte-de-sumatra_808_0_orig.jpg",
+    "especie": "Dicerorhinus sumatrensis",
+    "extinto": "No",
+    "peso": 800,
+    "altura": 150
+  },
+  {
+    "nombre": "Pangolín",
+    "imagen": "https://c4.wallpaperflare.com/wallpaper/390/338/433/animal-pangolin-mammal-wildlife-wallpaper-preview.jpg",
+    "especie": "Manis",
+    "extinto": "No",
+    "peso": 10,
+    "altura": 50
+  },
+  {
+    "nombre": "Lince Ibérico",
+    "imagen": "https://images.ecestaticos.com/mQLVi2TmMXf2-aWOUA2xieXzkW0=/0x0:2272x1515/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F8d3%2F6bb%2F357%2F8d36bb357027f929d1533909fc5984dc.jpg",
+    "especie": "Lynx pardinus",
+    "extinto": "No",
+    "peso": 13,
+    "altura": 70
+  },
+  {
+    "nombre": "Dodo",
+    "imagen": "https://e3.365dm.com/23/02/1600x900/skynews-dodo-flightless-bird_6042966.jpg?20230201103835",
+    "especie": "Raphus cucullatus",
+    "extinto": "Si",
+    "peso": "Sin datos",
+    "altura": "Sin datos"
+  },
+  {
+    "nombre": "Quagga",
+    "imagen": "https://w0.peakpx.com/wallpaper/171/376/HD-wallpaper-quagga-white-brown-striped-extinct.jpg",
+    "especie": "Equus quagga quagga",
+    "extinto": "Si",
+    "peso": "Sin datos",
+    "altura": "Sin datos"
+  }
+]
